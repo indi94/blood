@@ -1,0 +1,79 @@
+.navbar,footer{
+    background-color:#860301 !important;
+    color: white;
+}
+.footer{
+    background-color:#860301
+}
+
+    
+.container-fluid-banner{
+    text-align: center;
+        position: relative;
+        min-height: 20vh;
+        max-height: 33vh;
+        height: 33vh;
+        width: 100%;
+        
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 99%;
+        border-bottom: #d0d0d0 1px solid;
+        cursor: pointer;
+    }
+    
+    @media(max-width: 640px) {
+    
+        .container-fluid-banner{
+            min-height: 15vh;
+            max-height: 25vh;
+            height: 25vh;
+        }
+    }
+    .btn{
+     background-color:#860301 ;
+     text-align: center;
+     color: white;
+     margin-top: 50px;
+    }
+    .container-fluid-bou{
+        background-color: #967956;
+        text-align: center;
+        position: relative;
+        min-height: 20vh;
+        max-height: 33vh;
+        height: 33vh;
+        width: 100%;
+       
+    }
+   .sauve{
+       font-size: 15px;
+       margin-top: 5opx;
+       height: 10px;
+       width: 10px;
+       background-color: whitesmoke ;
+       
+       
+   }
+   .container-fluid-form{
+    background-color: #967956; 
+   }
+   .container-fluid-sos{
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 20vh;
+    max-height: 33vh;
+    height: 33vh;
+    width: 100%;
+   }
+
+.container-fluid-so{
+ background-color: #967956;
+ background-size: cover;
+ background-attachment: fixed;
+ min-height: 55vh;
+ max-height: 35vh;
+ height: 33vh;
+ width: 100%;
+}
